@@ -3,140 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>등촌 코인노래방 정보 – 상세 분석과 이용 팁</title>
-  <meta name="description" content="등촌동 코인노래방 5곳의 시설, 가격, 위치를 전문가 시각으로 분석한 상세 정보 페이지. 2025년 업데이트된 데이터와 실전 팁 제공.">
-  <meta name="keywords" content="등촌 코인노래방 정보, 등촌동 코인노래방 분석, 강서구 코인노래방 비교, 코인노래방 가격표, 등촌 노래방 추천">
-  <meta name="bpaas-design-system" content="brutalist-avantgarde">
-  <meta name="bpaas-design-theme" content="kr-neon-void">
-  <link rel="canonical" href="https://t3b06-dc-coin-guide-1.vercel.app/info">
-  <!-- Open Graph -->
-  <meta property="og:title" content="등촌 코인노래방 정보 – 브루탈리스트 시각의 상세 분석">
-  <meta property="og:description" content="등촌 코인노래방 5곳 완전 비교: 시설, 가격, 위치, 실제 이용 후기까지. 전문가 데이터 기반으로 정리했습니다.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://t3b06-dc-coin-guide-1.vercel.app/info">
-  <!-- CSS -->
-  <style>
-    /* RESET & BASE — raw brutal */
-    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-    html { font-size: 16px; scroll-behavior: smooth; }
-    body {
-      font-family: 'Courier New', Courier, 'Noto Sans KR', monospace;
-      background: #0d0d0d;
-      color: #e0e0e0;
-      line-height: 1.6;
-    }
-    /* TYPOGRAPHY — oversized, raw */
-    h1, h2, h3, h4 { font-weight: 700; letter-spacing: -0.02em; }
-    h1 { font-size: 3rem; margin-bottom: 0.5rem; color: #ff0055; text-transform: uppercase; }
-    h2 { font-size: 2.2rem; margin: 2rem 0 1rem; border-left: 6px solid #00e5ff; padding-left: 1rem; }
-    h3 { font-size: 1.6rem; margin: 1.5rem 0 0.8rem; }
-    p, li, blockquote { font-size: 1rem; margin-bottom: 1rem; }
-    a { color: #00e5ff; text-decoration: underline; text-underline-offset: 4px; }
-    a:hover, a:focus { color: #ff0055; }
-    /* LAYOUT — full bleed, asymmetric */
-    .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
-    .se { /* section element */ }
-    /* NAV — brutal with hamburger */
-    nav {
-      background: #1a1a1a;
-      padding: 1rem 0;
-      border-bottom: 4px solid #ff0055;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-    .nav-inner {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 1.5rem;
-    }
-    .nav-links { display: flex; gap: 2rem; list-style: none; }
-    .nav-links a { font-weight: bold; text-decoration: none; padding: 0.5rem 0; display: block; }
-    .nav-links a.active { color: #ff0055; border-bottom: 3px solid #ff0055; }
-    .hamburger-menu { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
-    .hamburger-menu span { width: 28px; height: 3px; background: #e0e0e0; }
-    @media (max-width: 768px) {
-      .nav-links { display: none; flex-direction: column; background: #1a1a1a; position: absolute; top: 100%; left: 0; width: 100%; padding: 1rem; }
-      .nav-links.active { display: flex; }
-      .hamburger-menu { display: flex; }
-    }
-    /* HERO */
-    .hero {
-      padding: 4rem 0 2rem;
-      text-align: center;
-      border-bottom: 2px dashed #ff0055;
-      margin-bottom: 2rem;
-    }
-    .hero p { font-size: 1.2rem; max-width: 800px; margin: 0 auto; }
-    /* CARD LIST */
-    .card-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin: 2rem 0; }
-    .card {
-      background: #1a1a1a;
-      border: 2px solid #00e5ff;
-      padding: 1.5rem;
-      transition: border-color 0.3s;
-    }
-    .card:hover { border-color: #ff0055; }
-    .card h3 { margin-top: 0; }
-    .card .price { color: #ff0055; font-weight: bold; font-size: 1.2rem; }
-    .card .meta { color: #aaa; font-size: 0.9rem; margin-bottom: 0.5rem; }
-    .card .rating { color: #ffcc00; }
-    /* FAQ */
-    .faq-item { margin-bottom: 1.5rem; border-left: 4px solid #00e5ff; padding-left: 1rem; }
-    .faq-item h4 { font-size: 1.2rem; margin-bottom: 0.5rem; cursor: pointer; }
-    /* FOOTER */
-    footer {
-      margin-top: 3rem;
-      padding: 2rem 0;
-      border-top: 2px solid #333;
-      text-align: center;
-      font-size: 0.9rem;
-      color: #888;
-    }
-    /* TEL LINK */
-    .tel-link { color: #00e5ff; text-decoration: none; border-bottom: 1px dotted; }
-    /* RESPONSIVE */
-    @media (max-width: 768px) {
-      h1 { font-size: 2.2rem; }
-      h2 { font-size: 1.8rem; }
-    }
-  </style>
+  <title>등촌 코인노래방 가이드 — 정보</title>
+  <meta name="description" content="등촌 코인노래방을 처음 찾는 분들을 위해 시설 선택 기준, 이용 전 확인사항, 단계별 준비 과정을 상세히 안내합니다. 현장 방문 전 필수 체크리스트를 제공하며, 각 상황에 맞춘 옵션 제시와 자주 묻는 질문을 포함해 효율적인 방문 계획을 세울 수 있도록 돕습니다.">
+  <meta name="keywords" content="등촌 코인노래방, 코인노래방 가이드, 등촌 노래방, 코인노래방 이용 팁, 코인노래방 선택 기준">
+  <link rel="canonical" href="https://deungchon-song-review.link-hub.org/about.html">
+  <meta property="og:title" content="등촌 코인노래방 가이드 — 조건별 이용 안내">
+  <meta property="og:description" content="등촌 코인노래방을 처음 찾는 분들을 위해 시설 선택 기준, 이용 전 확인사항, 단계별 준비 과정을 상세히 안내합니다.">
+  <meta property="og:url" content="https://deungchon-song-review.link-hub.org/about.html">
 </head>
 <body>
-  <nav>
-    <div class="nav-inner">
-      <div class="hamburger-menu" onclick="toggleNav()">
-        <span></span><span></span><span></span>
-      </div>
-      <ul class="nav-links" id="nav-links">
-        <li><a href="/">홈</a></li>
-        <li><a href="/info" class="active">정보</a></li>
-        <li><a href="/compare">비교</a></li>
-        <li><a href="/faq">FAQ</a></li>
-        <li><a href="tel:021234567" class="tel-link">전화 문의</a></li>
-      </ul>
-    </div>
+  <nav class="m-nav-m0jb">
+    <ul>
+      <li><a href="/intro">소개</a></li>
+      <li><a href="/info">정보</a></li>
+      <li><a href="/guide">가이드</a></li>
+      <li><a href="/faq">FAQ</a></li>
+      <li><a href="/contact">연락처</a></li>
+    </ul>
   </nav>
 
-  <main class="container">
-    <section class="hero">
-      <h1>등촌 코인노래방 정보</h1>
-      <p>2025년 1월 현장 조사 기준, 등촌동·강서구 일대 코인노래방 5곳의 시설, 가격, 위치 데이터를 브루탈리스트 시각으로 정리했습니다. 객관적 수치와 실제 이용자 피드백을 기반으로 한 가이드입니다.</p>
+  <main class="n-list-ik6s">
+    <section class="v-wrap-y9rw">
+      <h1>코인노래방 선택 시 핵심 고려 사항</h1>
+      <p>등촌 지역에 위치한 코인노래방은 거리 접근성과 주차 편의성, 실내 방음 설비 수준에 따라 이용 만족도가 크게 달라집니다. 특히 대중교통 환승역 근처에 위치한 시설은 이동 시간을 절감해 추가적인 연습 시간을 확보할 수 있습니다.</p>
+      <p>방음 성능은 마이크 감도와 스피커 배치, 방 내부의 방음재 종류에 따라 차이가 나며, 이는 주변 이웃과의 소음 분쟁을 예방하는 중요한 요소입니다. 방음이 충분히 확보된 경우, 고음역대에서도 음질 손실 없이 정확한 음정 조절이 가능하므로 가창 연습에 최적의 환경을 제공합니다.</p>
     </section>
 
-    <section>
-      <h2>등촌 지역 코인노래방 시장 개요</h2>
-      <p>등촌동은 강서구 내에서도 유동 인구가 많고 주거지와 상업지가 혼재된 지역입니다. 2025년 현재 등촌동에 등록된 코인노래방은 총 12곳이며, 이 중 조건에 부합하는 1인당 500~800원대 업소 5곳을 선정해 심층 분석했습니다. 평균 가격은 1곡당 650원, 30분 기준 3,500원 수준으로 서울 평균보다 약 8% 저렴합니다.</p>
-      <p>저희 팀은 2025년 1월 10일부터 14일까지 각 업소를 3회 이상 방문하여 시설 상태, 곡 업데이트, 위생 상태, 실제 혼잡도를 측정했습니다. 아래 카드는 그 데이터를 요약한 것입니다.</p>
+    <section class="v-wrap-y9rw">
+      <h2>이용 전 체크리스트</h2>
+      <p>방문 전 반드시 확인해야 할 항목은 다음과 같습니다. 첫째, 영업 시간이 최신 정보와 일치하는지 공식 웹사이트 또는 전화로 재확인합니다. 둘째, 예약 시스템이 운영되는 경우 사전 예약 여부와 예약 취소 정책을 파악합니다.</p>
+      <p>셋째, 사용 가능한 마이크 모델과 헤드폰 종류를 사전에 확인해 개인 선호에 맞는 장비를 선택합니다. 넷째, 기계식 코인 투입 방식인지 전자식 결제 방식인지 파악해 현금 또는 카드 준비를 미리 해두는 것이 좋습니다.</p>
     </section>
 
-    <section class="card-list">
-      <div class="card">
-        <h3>코인슈퍼 등촌점</h3>
-        <div class="meta">등촌동 123-4 · 지하 1층</div>
-        <
+    <section class="v-wrap-y9rw">
+      <h2>시간·인원별 이용 팁</h2>
+      <p>혼자 연습할 경우, 조용한 시간대(보통 평일 오후 2시~4시)를 선택하면 대기 시간을 최소화하면서 집중력을 유지할 수 있습니다. 반면, 다수 인원이 동시에 이용할 경우 최소 30분 이상의 연속 이용을 권장합니다. 이는 방을 공유하면서도 각자 원하는 곡을 손쉽게 선택할 수 있게 하는 운영 방식에 맞춰 효율적인 사용을 돕습니다.</p>
+      <p>특정 이벤트(예: 주말 프로모션)에는 시간당 이용요금이 변동될 수 있으므로, 사전 확인을 통해 예산을 정확히 산정하는 것이 필요합니다. 또한, 2인 이상이 동시에 이용할 경우 각자의 마이크 볼륨을 조절해 서로의 소리가 겹치지 않도록 배려하는 것이 좋은 매너입니다.</p>
+    </section>
+
+    <section class="v-wrap-y9rw">
+      <h2>비용 구조와 절감 전략</h2>
+      <p>대부분의 코인노래방은 10분당 200원에서 500원 사이의 요금을 적용합니다. 일부 업소는 30분 패키지나 1시간 무제한 이용권을 제공해 장시간 연습 시 비용을 크게 절감할 수 있습니다. 이러한 패키지는 특히 연습 목표가 명확한 경우 비용 효율적인 선택이 됩니다.</p>
+      <p>또한, 멤버십 카드를 발급받아 누적 결제 금액에 따라 할인 혜택을 받을 수 있는 경우가 많습니다. 할인율은 5%~15% 수준이며, 정기적으로 방문하는 이용자는 멤버십 가입을 고려하는 것이 장기적인 비용 절감에 도움이 됩니다.</p>
+    </section>
+
+    <section class="v-wrap-y9rw">
+      <h2>자주 묻는 질문 (FAQ)</h2>
+      <p><strong>Q1. 노래 선택 시 제한이 있나요?</strong> 대부분의 업소는 최신 차트와 고전 명곡을 포함한 10,000곡 이상의 데이터베이스를 제공하므로, 원하는 곡을 찾지 못할 경우 직원에게 요청하면 추가곡을 즉시 로드할 수 있습니다.</p>
+      <p><strong>Q2. 마이크와 헤드폰을 직접 가져가도 되나요?</strong> 개인 장비 사용은 일부 업소에서 제한할 수 있으니, 사전에 확인 후 가져가는 것이 바람직합니다. 자체 장비가 방음에 영향을 미칠 경우 시설 측에서 조정 요청을 받을 수 있습니다.</p>
+      <p><strong>Q3. 예약 취소 및 환불 정책은 어떻게 되나요?</strong> 일반적으로 1시간 이내 취소는 전액 환불이 가능하나, 특정 프로모션이나 할인 상품의 경우 차감이 발생할 수 있으니 예약 시 정책을 꼼꼼히 읽어야 합니다.</p>
+    </section>
+  </main>
+
+  <footer class="m-foot-nv5l">
+    <ul>
+      <li><a href="/privacy">개인정보 처리방침</a></li>
+      <li><a href="/terms">이용약관</a></li>
+      <li><a href="/sitemap">사이트맵</a></li>
+    </ul>
+    <p>© 2026 등촌 코인노래방 가이드. All rights reserved.</p>
+  </footer>
 </body>
 </html>
